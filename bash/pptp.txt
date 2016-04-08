@@ -1,0 +1,17 @@
+  331  yum install pptpd -y
+  332  vi /etc/pptpd.conf
+  334  vi /etc/ppp/chap-secrets
+  335  vi /etc/ppp/pptpd-options
+  336  service pptpd restart
+  337  netstat -alpn|gerp :1723
+  339  vi /etc/sysctl.conf
+  340  sysctl -p
+  341  iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE && iptables-save
+  342  vi /etc/ppp/options.pptpd
+  343  service pptpd restart
+  344  ps aux|grep pptpd
+  345  kill -9 17146
+  346  ps aux|grep pptpd
+  347  service pptpd restart
+  348  vi /etc/ppp/options.pptpd
+  349  exit

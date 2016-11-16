@@ -15,7 +15,8 @@
 		".bundle",
 		".sass-cache",
 		".svn",
-		".hg"
+		".hg",
+		"node_modules"
 	],
 	"font_face": "Courier New",
 	"font_options":
@@ -42,6 +43,7 @@
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"vintage_ctrl_keys": true,
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
 	"word_wrap": true
 }

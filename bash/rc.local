@@ -1,0 +1,23 @@
+touch /var/lock/subsys/local
+
+/Data/apps/mysql/usr/local/mysql/bin/mysqld_safe --user=mysql &
+
+/Data/apps/php/sbin/php-fpm
+/Data/apps/tengine/sbin/nginx
+
+iptables -P INPUT ACCEPT
+iptables -F
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+iptables -A INPUT -p tcp --dport 80 -m connlimit --connlimit-above 10 -j REJECT
+iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+iptables -A INPUT -p tcp --dport 443 -m connlimit --connlimit-above 10 -j REJECT
+iptables -A INPUT -p tcp --dport 28888 -j ACCEPT
+iptables -A INPUT -p udp --dport 28888 -j ACCEPT
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT ACCEPT
+
+/usr/sbin/netdata

@@ -1,0 +1,33 @@
+[
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+		},
+		"command": "run_macro_file"
+	}
+]

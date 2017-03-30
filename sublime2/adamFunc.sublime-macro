@@ -1,0 +1,24 @@
+[
+	{
+		"args":
+		{
+			"characters": "f"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"default": "\t",
+			"exact": false
+		},
+		"command": "insert_best_completion"
+	},
+	{
+		"args":
+		{
+			"contents": "($0)"
+		},
+		"command": "insert_snippet"
+	}
+]

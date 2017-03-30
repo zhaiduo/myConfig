@@ -84,17 +84,29 @@
         "forward": true
     }
 }, {
-    "keys": ["ctrl+shift+j"],
+    "keys": ["ctrl+shift+k"],
     "command": "move",
     "args": {
         "by": "lines",
         "forward": false
     }
 }, {
-    "keys": ["ctrl+shift+k"],
+    "keys": ["ctrl+shift+j"],
     "command": "move",
     "args": {
         "by": "lines",
         "forward": true
+    }
+}, {
+    "keys": ["option+f"],
+    "command": "run_macro_file",
+    "args": {
+        "file": "Packages/User/adamFunc.sublime-macro"
+    }
+}, {
+    "keys": ["option+c"],
+    "command": "run_macro_file",
+    "args": {
+        "file": "Packages/User/adamFuncContent.sublime-macro"
     }
 }]

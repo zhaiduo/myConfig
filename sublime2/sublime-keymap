@@ -69,4 +69,32 @@
         "operator": "equal",
         "operand": "text.find-in-files"
     }]
+}, {
+    "keys": ["ctrl+shift+h"],
+    "command": "move",
+    "args": {
+        "by": "words",
+        "forward": false
+    }
+}, {
+    "keys": ["ctrl+shift+l"],
+    "command": "move",
+    "args": {
+        "by": "words",
+        "forward": true
+    }
+}, {
+    "keys": ["ctrl+shift+j"],
+    "command": "move",
+    "args": {
+        "by": "lines",
+        "forward": false
+    }
+}, {
+    "keys": ["ctrl+shift+k"],
+    "command": "move",
+    "args": {
+        "by": "lines",
+        "forward": true
+    }
 }]

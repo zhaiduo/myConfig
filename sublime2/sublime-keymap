@@ -113,7 +113,7 @@
     "keys": ["ctrl+shift+h"],
     "command": "move",
     "args": {
-        "by": "words",
+        "by": "word_ends",
         "forward": false,
         "extend": true
     }
@@ -121,7 +121,7 @@
     "keys": ["ctrl+shift+l"],
     "command": "move",
     "args": {
-        "by": "words",
+        "by": "word_ends",
         "forward": true,
         "extend": true
     }
@@ -141,4 +141,13 @@
         "forward": true,
         "extend": true
     }
+}, {
+    "keys": ["ctrl+shift+a"],
+    "command": "exit_visual_mode",
+    "context": [{
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": false,
+        "match_all": false
+    }]
 }]

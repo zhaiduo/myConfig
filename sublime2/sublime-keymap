@@ -70,28 +70,28 @@
         "operand": "text.find-in-files"
     }]
 }, {
-    "keys": ["ctrl+shift+h"],
+    "keys": ["ctrl+super+h"],
     "command": "move",
     "args": {
         "by": "words",
         "forward": false
     }
 }, {
-    "keys": ["ctrl+shift+l"],
+    "keys": ["ctrl+super+l"],
     "command": "move",
     "args": {
         "by": "words",
         "forward": true
     }
 }, {
-    "keys": ["ctrl+shift+k"],
+    "keys": ["ctrl+super+k"],
     "command": "move",
     "args": {
         "by": "lines",
         "forward": false
     }
 }, {
-    "keys": ["ctrl+shift+j"],
+    "keys": ["ctrl+super+j"],
     "command": "move",
     "args": {
         "by": "lines",
@@ -108,5 +108,37 @@
     "command": "run_macro_file",
     "args": {
         "file": "Packages/User/adamFuncContent.sublime-macro"
+    }
+}, {
+    "keys": ["ctrl+shift+h"],
+    "command": "move",
+    "args": {
+        "by": "words",
+        "forward": false,
+        "extend": true
+    }
+}, {
+    "keys": ["ctrl+shift+l"],
+    "command": "move",
+    "args": {
+        "by": "words",
+        "forward": true,
+        "extend": true
+    }
+}, {
+    "keys": ["ctrl+shift+k"],
+    "command": "move",
+    "args": {
+        "by": "lines",
+        "forward": false,
+        "extend": true
+    }
+}, {
+    "keys": ["ctrl+shift+j"],
+    "command": "move",
+    "args": {
+        "by": "lines",
+        "forward": true,
+        "extend": true
     }
 }]

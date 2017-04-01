@@ -110,6 +110,12 @@
         "file": "Packages/User/adamFuncContent.sublime-macro"
     }
 }, {
+    "keys": ["option+n"],
+    "command": "run_macro_file",
+    "args": {
+        "file": "Packages/User/adamNewLine.sublime-macro"
+    }
+}, {
     "keys": ["ctrl+shift+h"],
     "command": "move",
     "args": {
@@ -150,4 +156,10 @@
         "operand": false,
         "match_all": false
     }]
-}]
+}, {
+    "keys": ["ctrl+alt+k"],
+    "command": "run_macro_file",
+    "args": {
+        "file": "res://Packages/Default/Delete Line.sublime-macro"
+    }
+}, ]

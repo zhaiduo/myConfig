@@ -122,6 +122,12 @@
         "file": "res://Packages/User/adamIfContent.sublime-macro"
     }
 }, {
+    "keys": ["ctrl+shift+option+c"],
+    "command": "run_macro_file",
+    "args": {
+        "file": "res://Packages/User/adamConsole.sublime-macro"
+    }
+}, {
     "keys": ["ctrl+shift+h"],
     "command": "move",
     "args": {

@@ -106,7 +106,7 @@
         "extend": false
     }
 }, {
-    "keys": ["ctrl+super+s"],
+    "keys": ["ctrl+super+1"],
     "command": "move_to",
     "args": {
         "to": "bol",
@@ -206,4 +206,7 @@
     "args": {
         "file": "res://Packages/Default/Delete Line.sublime-macro"
     }
+}, {
+    "keys": ["ctrl+super+m"],
+    "command": "goto_definition"
 }]

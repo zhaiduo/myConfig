@@ -98,6 +98,22 @@
         "forward": true
     }
 }, {
+    "keys": ["ctrl+super+e"],
+    "command": "move_to",
+    "args": {
+        "to": "eol",
+        "forward": true,
+        "extend": false
+    }
+}, {
+    "keys": ["ctrl+super+s"],
+    "command": "move_to",
+    "args": {
+        "to": "bol",
+        "forward": false,
+        "extend": false
+    }
+}, {
     "keys": ["option+f"],
     "command": "run_macro_file",
     "args": {

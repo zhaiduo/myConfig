@@ -169,6 +169,22 @@
         "match_all": false
     }]
 }, {
+    "keys": ["ctrl+shift+e"],
+    "command": "move_to",
+    "args": {
+        "to": "eol",
+        "forward": true,
+        "extend": true
+    }
+}, {
+    "keys": ["ctrl+shift+s"],
+    "command": "move_to",
+    "args": {
+        "to": "bol",
+        "forward": false,
+        "extend": true
+    }
+}, {
     "keys": ["ctrl+alt+k"],
     "command": "run_macro_file",
     "args": {

@@ -209,4 +209,31 @@
 }, {
     "keys": ["ctrl+super+m"],
     "command": "goto_definition"
+}, {
+    "keys": ["ctrl+shift+["],
+    "command": "chain",
+    "args": {
+        "commands": [
+            ["expand_selection", {
+                "to": "scope"
+            }],
+            ["fold"],
+            ["move", {
+                "by": "lines",
+                "forward": true
+            }]
+        ]
+    },
+}, {
+    "keys": ["ctrl+shift+]"],
+    "command": "chain",
+    "args": {
+        "commands": [
+            ["unfold"],
+            ["move", {
+                "by": "lines",
+                "forward": true
+            }]
+        ]
+    },
 }]

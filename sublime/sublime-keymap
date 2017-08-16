@@ -236,4 +236,16 @@
             }]
         ]
     },
+}, {
+    "keys": ["ctrl+alt+super+k"],
+    "command": "scroll_lines",
+    "args": {
+        "amount": 5.0
+    }
+}, {
+    "keys": ["ctrl+alt+super+j"],
+    "command": "scroll_lines",
+    "args": {
+        "amount": -5.0
+    }
 }]

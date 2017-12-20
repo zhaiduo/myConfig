@@ -16,18 +16,22 @@
 		".sass-cache",
 		".svn",
 		".hg",
-		"node_modules"
+		"node_modules",
+		"www",
+		"docs",
+		"vendors",
+		"dists"
 	],
-	"font_face": "Courier New",
+	"font_face": "monaco,Courier New",
 	"font_options":
 	[
 		"no_round"
 	],
-	"font_size": 16,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"vintage"
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,

@@ -1,0 +1,15 @@
+{
+    "editor.showFoldingControls": "mouseover",
+    "editor.fontFamily": "monaco,Courier New",
+    "editor.fontSize": 15,
+    "editor.matchBrackets": true,
+    "window.openFilesInNewWindow": "off",
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": true,
+    "editor.wordSeparators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Monokai"
+}

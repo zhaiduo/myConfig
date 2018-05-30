@@ -1,0 +1,77 @@
+//http://eslint.cn/docs/rules/
+module.exports = {
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      0,
+      "double"
+    ],
+    "semi": [
+      0,
+      "never"
+    ],
+    "no-unused-vars": [
+      0, {
+        "vars": "all",
+        "args": "after-used"
+      }
+    ],
+    "no-console": [1],
+    "space-infix-ops": [1],
+    //"space-before-keywords": [1],
+    //"space-unary-ops": [1],
+    "indent": [0],
+    "no-unexpected-multiline": [0],
+    "no-empty": [0],
+    "no-constant-condition": [0],
+    "no-unreachable": [0],
+    "no-inner-declarations": [0]
+  },
+  "globals": {
+    "define": true,
+    "angular": true,
+    "document": true,
+    "window": true,
+    "MouseEvent": true,
+    "navigator": true,
+    "jQuery": true,
+    "DOMParser": true,
+    "XMLHttpRequest": true,
+    "requirejs": true,
+    "$uibModal": true,
+    "confirm": true,
+    "alert": true,
+    "prompt": true,
+    "history": true,
+    "location": true,
+    "HTMLSpanElement": true,
+    "FormData": true,
+    "localStorage": true,
+    "sessionStorage": true,
+    "Image": true,
+    "GoEasy": true,
+    "pageYOffset": true,
+    "FileReader": true,
+    "WebSocket": true,
+    "KeyboardEvent": true,
+    "pbHost": true,
+    "echarts": true,
+    "$q": true,
+  }
+};

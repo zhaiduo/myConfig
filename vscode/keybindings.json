@@ -1,0 +1,16 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+shift+f",
+        "command": "esformatter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+h",
+        "command": "editor.action.goToDeclaration"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "workbench.action.navigateBack"
+    }
+]

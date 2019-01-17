@@ -1,16 +1,123 @@
-// 将键绑定放入此文件中以覆盖默认值
+// Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "ctrl+shift+f",
-        "command": "esformatter",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+cmd+h",
-        "command": "editor.action.goToDeclaration"
-    },
-    {
-        "key": "shift+cmd+b",
-        "command": "workbench.action.navigateBack"
-    }
+  {
+    "key": "ctrl+shift+k",
+    "command": "extension.fastcursor.up.select",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "extension.fastcursor.down.select",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "extension.fastcursor.left.select",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "extension.fastcursor.right.select",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+1",
+    "command": "extension.fastcursor.start.select",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "extension.fastcursor.end.select",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+cmd+1",
+    "command": "extension.fastcursor.first.select",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+cmd+e",
+    "command": "extension.fastcursor.last.select",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+k",
+    "command": "extension.fastcursor.up",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+j",
+    "command": "extension.fastcursor.down",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+h",
+    "command": "extension.fastcursor.left",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+l",
+    "command": "extension.fastcursor.right",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+1",
+    "command": "extension.fastcursor.start",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+e",
+    "command": "extension.fastcursor.end",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+1",
+    "command": "extension.fastcursor.first",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "extension.fastcursor.last",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+g",
+    "command": "extension.fastcursor.top",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+m",
+    "command": "extension.fastcursor.vcenter",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+b",
+    "command": "extension.fastcursor.bottom",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+",
+    "command": "workbench.action.terminal.scrollToTop",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+home",
+    "command": "-workbench.action.terminal.scrollToTop",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+home home",
+    "command": "workbench.action.terminal.scrollToTop"
+  },
+  ,
+  {
+    "key": "ctrl+shift+cmd+k",
+    "command": "extension.fastcursor.up10",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+cmd+j",
+    "command": "extension.fastcursor.down10",
+    "when": "editorTextFocus && !editorReadonly"
+  }
 ]

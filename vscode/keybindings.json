@@ -1,6 +1,14 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   {
+    "key": "cmd+alt+k",
+    "command": "workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "cmd+alt+j",
+    "command": "workbench.action.focusBelowGroup"
+  },
+  {
     "key": "ctrl+shift+k",
     "command": "extension.fastcursor.up.select",
     "when": "editorTextFocus && !editorReadonly"
